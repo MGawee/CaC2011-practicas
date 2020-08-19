@@ -1,4 +1,5 @@
-# CaC2011-clase01-02-Git
+# CaC2011-Clases-Git
+
 Clase 00 diapositivas con temas del curso + clase 01 Gits con README + cambios + clase 02 diapositivas
 
 
