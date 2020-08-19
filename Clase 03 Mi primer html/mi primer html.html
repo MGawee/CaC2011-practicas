@@ -5,7 +5,6 @@
 <title>♪♫♪ Una que sepamos todos ♪♫♪</title>
 </head>
 <body>
-
 <h1><u>Los 80's</u></h1>
 <h2>Girls Just Want to Have Fun</h2>
 <p>I come home in the morning light<br>
@@ -52,18 +51,22 @@ When the working day is done (they just wanna, they just wanna)<br>
 Oh when the working day is done, oh girl (girls just wanna have fun)<br>
 Girls just wanna have fun (they just wanna, they just wanna)</p>
 <br>
-<img src="cyndi.jpg" width="35" height="75">
+<img src="cyndi.jpg" width="35" height="75"> 
+<!-- en w3s: la imagen copie link de una pagina y quedo re pipí ... porque no subia la de mi disco, pero por que???-->
 &ensp;&ensp;<button type="button" onclick="alert('Cyndi Lauper')"> Si querés saber quién canta esta canción, hacé click acá</button>
 <br>
 <br>
-&emsp;&emsp;&emsp;&ensp;<a href="https://www.youtube.com/watch?v=PIb6AZdTr-A">Para ver el video oficial presiona este link</a>
-<!--como abrir en nueva ventana el link?-->
+&emsp;&emsp;&emsp;&ensp;<a href="https://www.youtube.com/watch?v=PIb6AZdTr-A" target="_blank">Para ver el video en una nueva pestaña, presiona este link</a>
 <br>
 <br>
 <form action="/action_page.php">
-<label for="fname">Nombre:</label>
-<input type="text" id="fname" name="fname">&emsp;<input type="submit" value="Ingresá a nuestro news">
-<!--acá estaría bueno poner una ventanita que abra algo tipo nada, hola, que se yo, pero no un error y tambien agregar form de mail-->
+&emsp;&emsp;&emsp;&ensp;<label for="fname">Nombre:</label>
+<input type="text" id="fname" name="fname"placeholder="Juan" required><br>
+<br>
+&emsp;&emsp;&emsp;&ensp;<label for="femail">Email:&emsp;</label>
+<input type="email" id="femail"name="femail"placeholder="usuario@ejemplo.com" required>
+&emsp;<input type="submit" value="Suscribite a nuestro news"<button type="button" onclick="alert('Bienvenido!!!')">
+<!--acá abre ventanita alerta pero al aceptar o esc o lo que sea... lleva a error, y acá ya no se que hacer??? También, aunque aparece como requerido no bloquea el boton submit y no se como se hace???-->
 </form>
 <br>
 <br>
