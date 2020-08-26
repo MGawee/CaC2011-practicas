@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
 </head>
-<body>
+<body>  <!--falta ciudad, pais, checkbox, cuadro de texto, select, -->
 <h1>Formulario</h1>
 <form action="/action_page.php" method="POST">
 <label for="fname">Nombre:</label>
@@ -31,12 +31,18 @@
 <label for="pass">Clave:</label>
 <input type="password" id="pass" name="pass" required><br>
 <br>
-<p> Género:
-    <input type="radio" name="gender" value="masculino" checked> "Masculino"
-    <input type="radio" name="gender" value="femenino" checked>"Femenino"
-    <input type="radio" name="gender" value="otro" checked>"Otro"
+<p>Género:
+    <input type="radio" id="masculino" name="genero" value="masculino"checked> 
+    <label for="male">Masculino</label>
+    <input type="radio" id="femenino name="genero" value="femenino">
+    <label for="femenino">Femenino</label>
+    <input type="radio" id="otro" name="genero" value="otro">
+    <label for="otro">Otro</label>
 </p>
+<p>Intereses:
+    <input type="checkbox" id="mus01" name="mus01"value= "Musica de los 70's">
 
+</p>
 
 
 <input type="submit" value="Suscribite a nuestro news"type="button" onclick="alert('Bienvenido!!!')">
