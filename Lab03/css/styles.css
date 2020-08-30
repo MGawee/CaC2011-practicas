@@ -47,9 +47,7 @@ nav ul li{
     list-style: none;
     max-width: 100%;
    padding: 0 2% 0 0%;   
-  
-
-}
+  }
 .navegacion{
     background: #e58a8a;
     padding: 2%;
@@ -67,7 +65,7 @@ nav ul li{
 .navegacion ul ul{
     display: none;
     position: absolute;
-    top: 150%;
+    top: 100%;
     right: -15%;
     }
   
