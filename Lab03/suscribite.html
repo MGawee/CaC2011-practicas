@@ -1,81 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>♪♫♪ Una que sepamos todos ♪♫♪</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-</head>
-<header><a href="index.html"><i class="fas fa-home" style=font-size:50px;color:black></a></i><b><a href="index.html">Home</a></b>
-</header>
-<body>  
-<h1>Formulario</h1>
-<form action="/action_page.php" method="POST">
-<label for="fname">*Nombre:</label>
-<input type="text" id="fname" name="fname"placeholder="Juan" required><br>
-<br>
-<label for="lname">*Apellido:</label>
-<input type="text" id="lname" name="lname"placeholder="Perez" required><br>
-<br>
-<label for="femail">*Email:</label>
-<input type="email" id="femail"name="femail"placeholder="usuario@ejemplo.com" required><br>
-<br>
-<label for="address">*Dirección:</label>
-<input type="text" id="address" name="address"placeholder="Av. Rivadavia 3333" required><br>
-<br>
-<label for="zipcode">*Código Postal:</label>
-<input type="text" id="zipcode" name="zipcode"placeholder="AA1111AA" required><br>
-<br>
-<label for="birthdate">*Fecha de nacimiento:</label>
-<input type="date" id="birthdate" name="birthdate" required><br>
-<br>
-<label for="pass">*Clave:</label>
-<input type="password" id="pass" name="pass" required><br>
-<br>
-<p>Género:
-    <input type="radio" id="masculino" name="genero" value="masculino"checked> 
-    <label for="male">Masculino</label>
-    <input type="radio" id="femenino" name="genero" value="femenino">
-    <label for="femenino">Femenino</label>
-    <input type="radio" id="otro" name="genero" value="otro">
-    <label for="otro">Otro</label>
-</p>
-<p>Intereses:
-    <input type="checkbox" id="mus01" name="mus01"value= "70's">
-    <label for="mus01">Música de los 70's</label>
-    <input type="checkbox" id="mus02" name="mus02"value= "80's">
-    <label for="mus02">Música de los 80's</label>
-    <input type="checkbox" id="mus03" name="mus03"value= "90's">
-    <label for="mus03">Música de los 90's</label>
-    <input type="checkbox" id="mus04" name="mus04"value= "00's">
-    <label for="mus04">Música de los 00's</label>
-</p>
-<p> Seleccione una opción:
-    <label for="buzon">Seleccione una opción:</label>
-    <select id="buzon"name="buzon">
-        <option value="sugerencias">Sugerencias</option>
-        <option value="quejas">Quejas</option>
-        <option value="reclamos">Reclamos</option>
-        <option value="felicita">Felicitaciones :p</option>
-    </select>
-    <p><textarea name="mensaje" rows="10" cols="30" placeholder="Coloque su texto aqui"></textarea></p>
-</p>
-<input type="submit" value="Suscribite a nuestro news"><!--como bloquear el boton si los campos no estan completos??-->
-&ensp;<input type="reset" value="Borrar">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css" type="text/css">
+
+    </head>
+
+<body>
+    <header>
 
 
-</form>
-
+        <nav  class="navegacion">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="">Décadas</a>
+                    <!--aca hay que linkear cuando esten las demas decadas hechas a cada una que corresponda-->
+                    <ul>
+                        <li><a href="musica80s.html">Los 70's</a></li>
+                        <li><a href="musica80s.html">Los 80's</a></li>
+                        <li><a href="musica80s.html">Los 90's</a></li>
+                        <li><a href="musica80s.html">Los 00's</a></li>
+                    </ul>
+                </li>
+                <li><a href="Letras.html">Letras de canciones</a></li>
+                <li><a href="suscribite.html"class="actual">Formulario</a></li>
+                <li><a href="contacto.html">Contactanos</a></li>
+                <li><a href="pruebadeclases.html">Para probar en clase</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Formulario</h1>
+    <h4>Los campos obligatorios se marcan con *</h4>
+    <form action="/action_page.php" method="POST">
+        <label for="fname">*Nombre:</label>
+        <input type="text" id="fname" name="fname" placeholder="Juan" required><br>
+        <br>
+        <label for="lname">*Apellido:</label>
+        <input type="text" id="lname" name="lname" placeholder="Perez" required><br>
+        <br>
+        <label for="femail">*Email:</label>
+        <input type="email" id="femail" name="femail" placeholder="usuario@ejemplo.com" required><br>
+        <br>
+        <label for="address">*Dirección:</label>
+        <input type="text" id="address" name="address" placeholder="Av. Rivadavia 3333" required><br>
+        <br>
+        <label for="zipcode">*Código Postal:</label>
+        <input type="text" id="zipcode" name="zipcode" placeholder="AA1111AA" required><br>
+        <br>
+        <label for="birthdate">*Fecha de nacimiento:</label>
+        <input type="date" id="birthdate" name="birthdate" required><br>
+        <br>
+        <label for="pass">*Clave:</label>
+        <input type="password" id="pass" name="pass" required><br>
+        <br>
+        <p>Género:
+            <input type="radio" id="masculino" name="genero" value="masculino" checked>
+            <label for="male">Masculino</label>
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+            <input type="radio" id="otro" name="genero" value="otro">
+            <label for="otro">Otro</label>
+        </p>
+        <p>Intereses:
+            <input type="checkbox" id="mus01" name="mus01" value="70's">
+            <label for="mus01">Música de los 70's</label>
+            <input type="checkbox" id="mus02" name="mus02" value="80's">
+            <label for="mus02">Música de los 80's</label>
+            <input type="checkbox" id="mus03" name="mus03" value="90's">
+            <label for="mus03">Música de los 90's</label>
+            <input type="checkbox" id="mus04" name="mus04" value="00's">
+            <label for="mus04">Música de los 00's</label>
+        </p>
+        <p> Seleccione una opción:
+            <label for="buzon">Seleccione una opción:</label>
+            <select id="buzon" name="buzon">
+                <option value="sugerencias">Sugerencias</option>
+                <option value="quejas">Colaboraciones</option>
+                <option value="reclamos">Reclamos</option>
+                <option value="felicita">Felicitaciones :p</option>
+            </select>
+        <p><textarea name="mensaje" rows="10" cols="30" placeholder="Coloque su texto aqui"></textarea></p>
+        </p>
+        <input type="submit" value="Suscribite a nuestro news">
+        <!--como bloquear el boton si los campos no estan completos??-->
+        &ensp;<input type="reset" value="Borrar">
+    </form>
+    <footer>
+        <div>
+            <h4>Compartir en:</h4>
+            <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"
+                    style=font-size:50px;color:cornflowerblue></i></a>
+            <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square"
+                    style=font-size:50px;color:green></i></a>
+            <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"
+                    style=font-size:50px;color:#E033FF></i></a>
+        </div>
+        <br>
+        <p>TODOS LOS DERECHOS RESERVADOS 2020 © </p>
+        <br>
+    </footer>
 </body>
-<footer ALIGN=center> 
-    <div ALIGN=center>
-        <h4>Compartir en:</h4>
-        <a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter" style=font-size:50px;color:cornflowerblue></i></a>
-        <a href="https://www.whatsapp.com/" target="_blank"><i class="fab fa-whatsapp-square"style=font-size:50px;color:green></i></a>
-        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"style=font-size:50px;color:#E033FF></i></a>
-      </div>
-      <br>
-    <p>TODOS LOS DERECHOS RESERVADOS © </p>
-    <br>
-</footer>
+
 </html>

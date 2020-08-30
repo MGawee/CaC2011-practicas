@@ -1,0 +1,117 @@
+
+/*body{background: #bcce18;
+}
+
+p{color: red; 
+    font-family: sans-serif;
+    background:#ffffff;
+    padding: 5%;
+    margin: 5% 30%;
+}
+Color Palette 179335 color hunt*/
+
+*{  
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    
+    clear: both;
+
+    /*text-decoration: none; *//*es para que no aparezca subrayado el link como antiguamente tambien se puede tomar la etiqueta a{ y poner lo mismo*/
+     
+}
+body{
+    background: #ccafaf;
+    text-align: center;
+    color: white;
+}
+h1,h2,h4{
+    margin: 2%;
+   
+}
+h3{
+    margin-bottom: 5%;
+   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #d8345f;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    max-width: 100%;
+   padding: 0 2% 0 0%;   
+  
+
+}
+.navegacion{
+    background: #e58a8a;
+    padding: 2%;
+   
+   }   
+   .navegacion ul a{
+       display: block;
+       letter-spacing: 1px;
+   }
+   .navegacion ul li{
+       position: relative;
+       }
+
+/*menu desplegable*/
+.navegacion ul ul{
+    display: none;
+    position: absolute;
+    top: 150%;
+    right: -15%;
+    }
+  
+.navegacion ul ul li{
+    float: none;
+    width: 150px;
+}
+.navegacion ul ul a{
+    line-height: 120%;
+    padding: 10px 15px;
+}
+.navegacion ul li:hover>ul{
+    display: block;
+    background: #e58a8a;
+    
+
+}
+.actual{
+    color: #d8345f;
+}
+
+
+.decadas{
+    background: #588da8;
+    padding: 5% 5%;
+    margin: 5% 25%;
+    margin-bottom: 5%;
+
+    }
+
+footer{
+    background: #e58a8a;
+    max-width: 100%;
+    color: white;
+      }
+/*musica80s*/
+ol{
+   list-style-position: inside;
+   
+}
+table,th,td{
+    border: #e58a8a 2px solid;
+    text-align: center;
+    margin: auto;
+    border-collapse: collapse;
+}
+
