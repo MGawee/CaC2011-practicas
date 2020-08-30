@@ -113,3 +113,20 @@ table,th,td{
     border-collapse: collapse;
 }
 
+/*formulario*/
+.cajaform{
+    background: #588da8;
+    padding: 3%;
+    margin: 4% 25%;
+    line-height: 100% ;
+}
+form h1,h4,p{
+    padding: 2%;
+}
+.botonfeo{
+    background-color: #e58a8a;
+    border: 2px #ffffff solid;
+    color: white;
+    margin: 2%;
+    padding: 1%;
+}

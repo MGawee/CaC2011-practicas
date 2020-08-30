@@ -13,8 +13,6 @@
 
 <body>
     <header>
-
-
         <nav  class="navegacion">
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -34,7 +32,8 @@
             </ul>
         </nav>
     </header>
-    <h1>Formulario</h1>
+    <div class="cajaform"> 
+    <h1>Formulario de Suscripción</h1>
     <h4>Los campos obligatorios se marcan con *</h4>
     <form action="/action_page.php" method="POST">
         <label for="fname">*Nombre:</label>
@@ -84,12 +83,13 @@
                 <option value="reclamos">Reclamos</option>
                 <option value="felicita">Felicitaciones :p</option>
             </select>
-        <p><textarea name="mensaje" rows="10" cols="30" placeholder="Coloque su texto aqui"></textarea></p>
+        <p><textarea name="mensaje" rows="10" cols="33" placeholder="Coloque su texto aqui"></textarea></p>
         </p>
-        <input type="submit" value="Suscribite a nuestro news">
+        <input type="submit" value="Suscribite a nuestro news" class="botonfeo">
         <!--como bloquear el boton si los campos no estan completos??-->
-        &ensp;<input type="reset" value="Borrar">
+        &ensp;<input type="reset" value="Borrar" class="botonfeo">
     </form>
+</div>
     <footer>
         <div>
             <h4>Compartir en:</h4>
