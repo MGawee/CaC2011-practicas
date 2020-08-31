@@ -17,7 +17,7 @@ Color Palette 179335 color hunt*/
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     
-    clear: both;
+    
 
     /*text-decoration: none; *//*es para que no aparezca subrayado el link como antiguamente tambien se puede tomar la etiqueta a{ y poner lo mismo*/
      
@@ -72,16 +72,22 @@ nav ul li{
 .navegacion ul ul li{
     float: none;
     width: 150px;
+    margin: 5% 1% 5%;
+
 }
 .navegacion ul ul a{
     line-height: 120%;
-    padding: 10px 15px;
+    padding: 2%;
+}
+.navegacion ul ul li:first-child{
+    margin-top: 15%;
+}
+.navegacion ul ul li:last-child{
+    margin-bottom: 15%;
 }
 .navegacion ul li:hover>ul{
     display: block;
     background: #e58a8a;
-    
-
 }
 .actual{
     color: #d8345f;
@@ -93,14 +99,17 @@ nav ul li{
     padding: 5% 5%;
     margin: 5% 25%;
     margin-bottom: 5%;
-
-    }
+    box-sizing: border-box;
+}
 
 footer{
     background: #e58a8a;
     max-width: 100%;
     color: white;
-      }
+}
+footer i{
+    margin: 0.5em;
+}    
 /*musica80s*/
 ol{
    list-style-position: inside;
@@ -118,15 +127,37 @@ table,th,td{
     background: #588da8;
     padding: 3%;
     margin: 4% 25%;
-    line-height: 100% ;
+    line-height: 2;
+    box-sizing: border-box;
+    border-radius: 2em;
+    
 }
 form h1,h4,p{
     padding: 2%;
 }
+form h1{
+line-height: 100%;
+}
+form input{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    margin: 0 0 0 2em;
+}
+form select{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    }
+.textareaform{
+    display:block;
+    resize: none;
+    width: 100%;
+    border-radius: 1em;
+}
 .botonfeo{
     background-color: #e58a8a;
-    border: 2px #ffffff solid;
+    border: 0.1em #ffffff solid;
     color: white;
-    margin: 2%;
-    padding: 1%;
+    margin: 1rem;
+    padding: 1em;
+    border-radius: 20em;
 }
