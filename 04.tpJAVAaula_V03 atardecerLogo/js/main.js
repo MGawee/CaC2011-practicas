@@ -1,5 +1,5 @@
 var form = document.querySelector("form");
-var nUsuario = document.getElementById("nUsuario");
+var usuario = document.getElementById("nUsuario");
 var pass = document.getElementById("pass");
 var submit = document.getElementById("submit");
 

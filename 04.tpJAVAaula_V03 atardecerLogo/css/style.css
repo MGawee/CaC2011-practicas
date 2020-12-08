@@ -15,8 +15,20 @@ h2,h5,h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ee3524
 }
-
    
-    ::placeholder{
+::placeholder{
     color: #ee3524!important;
-    }
+}
+
+.peque {
+    height: 2rem;
+}
+
+ul > li { 
+    color:  #f5e4e2; 
+}
+
+.iguales {
+    padding-top: 1rem;
+    
+}
