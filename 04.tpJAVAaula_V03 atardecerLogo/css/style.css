@@ -13,7 +13,11 @@ background: linear-gradient( rgb(232, 199, 108) 93%, rgb(247, 156, 29) 100%, rgb
 
 h2,h5,h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ee3524
+    color: #ee3524;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
    
 ::placeholder{
@@ -30,5 +34,8 @@ ul > li {
 
 .iguales {
     padding-top: 1rem;
-    
+}
+
+.subraya {
+    text-decoration-color: #ee3524!important;
 }
